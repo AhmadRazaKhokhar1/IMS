@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Nunito+Sans:ital,opsz@0,6..12;1,6..12&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html.dark {
+    background-color: #0f172a;
+    color: #e2e8f0;
+  }
+  
+  html.dark input {
+    background-color: #1e293b;
+    color: #e2e8f0;
+    border-color: #475569;
+  }
+  
